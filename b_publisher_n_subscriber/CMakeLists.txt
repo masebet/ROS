@@ -1,4 +1,4 @@
-## ================================ TAMBAH ini untuk a_publisher.cpp ================================
+## ================================ TAMBAH ini untuk a_publisher.cpp dan b_subscriber.cpp ================================
 cmake_minimum_required(VERSION 2.8.3)
 project(b_publisher_n_subscriber)
 
@@ -18,4 +18,7 @@ include_directories(
 # Declare a cpp executable
 add_executable(si_publisher src/a_publisher.cpp)
 target_link_libraries(si_publisher ${catkin_LIBRARIES})
-## ================================ TAMBAH ini untuk a_publisher.cpp ================================
+
+add_executable(si_subscriber src/b_subscriber.cpp)
+target_link_libraries(si_subscriber ${catkin_LIBRARIES})
+## ================================ TAMBAH ini untuk a_publisher.cpp dan b_subscriber.cpp ================================

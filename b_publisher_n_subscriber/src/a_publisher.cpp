@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     {
         std_msgs::String msg;       // membuat pesan baru dengan tipe data String
         std::stringstream ss;       // membuat string
-        ss << "wooooyy ..... " << count;
+        ss << "wooooyyy ..... " << count;
         msg.data = ss.str();         // menetapkan data string ke dalam message ROS data field
         ROS_INFO("si dia %s\n", msg.data.c_str());
 
@@ -33,7 +33,7 @@ Tahap-tahap compile program
 1. Selesaikan membuat program a_publisher.cpp
 2. Buka dan edit file CMakeList.txt (hasilnya seperti itu)
 3. cd ~/catkin_ws && catkin_make
-4. source devel/setup.bash
+4. source devel/setup.bash      (opsional)
 5. roscore
 6. buka terminal baru
 7. rosrun b_publisher_n_subscriber si_publisher
