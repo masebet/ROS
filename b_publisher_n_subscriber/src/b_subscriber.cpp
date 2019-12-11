@@ -25,6 +25,8 @@ Tahap-tahap compile program
 4. source devel/setup.bash      (opsional)
 5. roscore
 6. buka terminal baru
-7. rosrun b_publisher_n_subscriber si_subscriber
-8. enjoy the result
+7. rosrun b_publisher_n_subscriber si_publisher
+8. buka terminal baru
+9. rosrun b_publisher_n_subscriber si_subscriber
+10. enjoy the result
 */
