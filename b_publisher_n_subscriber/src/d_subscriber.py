@@ -20,3 +20,20 @@ def listener():
 
 if __name__ == "__main__":
     listener()
+
+
+
+'''
+Tahap-tahap compile program
+1. Selesaikan membuat program d_subscriber.py
+2. cd ~/catkin_ws/src/ROS-Basic/b_publisher_n_subscriber/src
+3. chmod +x d_subscriber.py
+4. cd ~/catkin_ws && catkin_make
+5. source devel/setup.bash      (opsional)
+6. roscore
+7. buka terminal baru
+8. rosrun b_publisher_n_subscriber c_publisher.py
+9. buka terminal baru
+9. rosrun b_publisher_n_subscriber d_subscriber.py
+10. enjoy the result
+'''
